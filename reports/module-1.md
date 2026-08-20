@@ -1,8 +1,8 @@
 # Module 1 — Baseline Model
 
-Random Forest RMSE : 5.47
+Random Forest RMSE after removing outliers: 73.64
 
-Random Forest MAE : 3.68
+Random Forest MAE after removing outliers: 9.16
 
 ## Model
 Random Forest Regressor
