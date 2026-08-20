@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# raw data 
+data/
+
+# pickled models
+models/*.pkl
+
 # Distribution / packaging
 .Python
 build/
