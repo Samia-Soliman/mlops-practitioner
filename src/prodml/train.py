@@ -25,8 +25,7 @@ rf.fit(X_train, y_train)
 rf_pred = rf.predict(X_val)
 rf_rmse = root_mean_squared_error(y_val, rf_pred)
 rf_mae = mean_absolute_error(y_val, rf_pred)
-print(f"Random Forest RMSE: {rf_rmse:.2f}")
-print(f"Random Forest MAE: {rf_mae:.2f}")
+
 
 pipeline = Pipeline(
     [
